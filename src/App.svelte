@@ -43,12 +43,13 @@
   }
 
   #lypa {
+    grid-column-start: 1;
     font-family: sans-serif;
     font-style: italic;
     font-size: 250%;
     color: white;
     margin-top: 4%;
-    margin-left: 10%;
+    margin-left: -75%;
   }
 
   .button {
@@ -83,6 +84,7 @@
   }
 
   #sendMoney {
+    grid-row-start: 2;
     background: linear-gradient(180deg, #68EB75 0%, #0D6DB8 100%);
     border-radius: 30px 90px 0px 0px;
     margin-left: 0%;
@@ -95,7 +97,7 @@
     text-align: left;
     font: bold 73px/80px Paralucent, sans-serif;
     color: #FFFFFF;
-    font-size: 350%;
+    font-size: 300%;
     padding: 30px;
   }
 
@@ -103,6 +105,7 @@
     background: #FFFFFF;
     margin-left: 0%;
     margin-top: 0%;
+    grid-row-start: 3;
   }
 
   #paragraph0a {
@@ -147,30 +150,43 @@
     background: #FFFFFF;
     box-shadow: 0px 3px 6px #0037BC34;
     border-radius: 53px;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     margin-bottom: 40px;
   }
+  #flag{margin-left: 5%;
+    width: 70px;
+    height: 40px;
+  align-items: center;}
 
   #arab {
-    font-size: 200%;
+    font-size: 150%;
     font: 39px/41px Paralucent, sans-serif;
     color: #001C5E;
-  }
+  grid-column-start: 2; }
+  #triangle {
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #FF5B87; /* Pink/Orange triangle color */
+      cursor: pointer;
+      margin: 50px auto;
+    }
 
   #receive {
-    margin-left: 5%;
+    margin-left: -50%;
     font: 24px Paralucent, sans-serif;
     color: #001C5E;
   }
 
   #money3 {
-    margin-left: 40%;
+    margin-left: -10%;
     font: 24px Paralucent, sans-serif;
     color: #001C5E;
   }
 
   #clicking {
-    margin-left: 20%;
+    margin-left: 10%;
     font: 24px Paralucent, sans-serif;
     color: #142944;
   }
@@ -184,13 +200,39 @@
     display: grid;
     place-items: center;
     margin: 30px auto;
+    grid-template-columns: 1fr 3fr;
   }
+  #currencyC{
+ grid-column-start: 1;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+  }
+  #currency{
+    display: grid;
+  font-size: 100%;
+  grid-column-start: 1;
+      color: #001C5E;
+font-size: 200%;
+  align-items: center;
 
+  }
+  #triangle2{
+    grid-column-start: 2;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #FF5B87; /* Pink/Orange triangle color */
+      cursor: pointer;
+      margin: 50px auto;
+    margin-left: 75%;
+  }
   #money {
+    grid-column-start: 2;
     font: 500 41px/41px Paralucent, sans-serif;
     color: #001C5E;
-    text-align: center;
-  }
+    text-align: left;
+  margin-left: -30%; }
 
   #send {
     margin-left: 10%;
@@ -202,12 +244,17 @@
   }
 
   #sender {
-    margin-left: 40%;
-    margin-top: 5%;
+    margin-left: 0%;
+    margin-top: 15%;
     font: 41px Paralucent, sans-serif;
     color: #FFFFFF;
+    align-items: center;
   }
-
+#hands{
+  margin-right: -59%;
+  margin-top: -40.9%;
+ 
+}
   .content {
     width: 100%;
     height: 940px;
@@ -286,6 +333,7 @@
     color: #6AED75;
     margin-top: 40px;
     width: 80%;
+    margin-left: 10%;
   }
 </style>
 
@@ -326,20 +374,37 @@
 
   <div class="column2">
     <div id="paragraph1">
-      <div id="country">
-        <img id="flag" src="" alt="Flag" />
-        <p id="arab">United Arab Emirates</p>
-        <img id="scroll" src="" alt="Scroll Icon" />
+        <div id="country">       
+          <img id="flag" src="/Images/flag.jpeg" alt="Bill Image" />
+
+
+       <p id="arab">United Arab Emirates</p>
+        <img id="triangle" src="" alt="Scroll Icon" />
       </div>
 
       <p id="receive">SEND AMOUNT</p>
       <div id="sendAmount">
+        <div id="currencyC">
+                  <p id="currency">
+                   AED
+                  </p>
+              <img id="triangle2" src="" alt="Scroll Icon" />
+
+           </div>
+
+
         <p id="money">10,000.00</p>
       </div>
 
       <p id="receive">RECEIVE AMOUNT</p>
       <div id="receiveAmount">
-        <p id="money">320,193.00</p>
+        <div id="currencyC">
+                  <p id="currency">
+                   KES
+                  </p>
+              <img id="triangle2" src="" alt="Scroll Icon" />
+
+           </div> <p id="money">320,193.00</p>
       </div>
 
       <p id="money3">1 AED = 32.02 KES</p>
@@ -350,7 +415,9 @@
 
       <p id="clicking">By clicking send, I agree with terms & policy</p>
     </div>
-    <img id="hands" src="" alt="Hands image" />
+    <div id="hands">
+  <img id="hands1" src="/Images/Image 83.png" alt="Hands image" width="250" height="250" />
+    </div>
   </div>
 </div>
 
