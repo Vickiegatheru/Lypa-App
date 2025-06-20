@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+</head>
+<script>
+  function handleSignIn() {
+  const phone = document.getElementById('phone').value.trim();
+  const password = document.getElementById('password').value.trim();
+
+  if (!phone || !password) {
+    alert('Please enter both phone number and password.');
+    return;
+  }
+
+  console.log('Phone:', phone);
+  console.log('Password:', password);
+
+  alert(`Logging in with:\nPhone: ${phone}\nPassword: ${password}`);
+}
+
+</script>
+<style>
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.column2 {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-rows: 1.5fr auto auto auto auto 3fr;
+  justify-items: center;
+  gap: 5px;
+  width: 390px;
+  height: 100vh;
+  background: #F5F5F5;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  padding-left: 20px;
+}
+
+#arrow {
+    margin-left: 4%;
+  display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 15px solid black;
+      margin: 20px;
+      cursor: pointer;
+}
+
+.paragraph {
+  width: 100%;
+  padding-left: 20px;
+  text-align: left;
+  margin-left: 6%;
+  margin-bottom: 4%;
+}
+
+#paragraphP {
+    margin-left: 5%;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.input-btn {
+  width: 349px;
+  height: 70px;
+  background: #ECEFF2;
+  border: 1px solid #6C6D6D;
+  border-radius: 21px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 19px;
+  color: #001C5E;
+  cursor: pointer;
+}
+
+.forgot {
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}
+
+.signin {
+  width: 349px;
+  height: 70px;
+  background: linear-gradient(253deg, #A264C7 0%, #3DD29B 100%);
+  border-radius: 19px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  cursor: pointer;
+  
+color: #001C5E;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#arrow2 {
+  display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 15px solid black;
+      margin: 20px;
+      cursor: pointer;
+}
+
+</style>
+<body>
+  <div class="column2">
+
+    <div class="top">
+      <div id="arrow"></div>
+    </div>
+
+    <div class="paragraph">
+      <p id="paragraphP">Sign in</p>
+    </div>
+
+    <button class="input-btn">Phone Number</button>
+
+    <button class="input-btn">Password</button>
+
+    <div class="forgot">
+      <p>Forgot Password?</p>
+    </div>
+
+    <button class="signin">
+      <span>Sign In</span>
+      <span class="circle">
+        <span id="arrow2"></span>
+      </span>
+    </button>
+
+  </div>
+</body>
+</html>

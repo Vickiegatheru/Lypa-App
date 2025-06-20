@@ -7,9 +7,11 @@
     alert("Withdraw button clicked");
   }
 
-  function handleLogin() {
-    alert("Login button clicked");
-  }
+  
+
+ function handleLogin() {
+  window.location.href = '/Login.html';
+}
 
   function handleJoin() {
     alert("Join button clicked");
@@ -168,7 +170,7 @@
       height: 0;
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
-      border-top: 20px solid #FF5B87; /* Pink/Orange triangle color */
+      border-top: 20px solid #FF5B87; 
       cursor: pointer;
       margin: 50px auto;
     }
@@ -222,7 +224,7 @@ font-size: 200%;
       height: 0;
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
-      border-top: 20px solid #FF5B87; /* Pink/Orange triangle color */
+      border-top: 20px solid #FF5B87;
       cursor: pointer;
       margin: 50px auto;
     margin-left: 75%;
@@ -235,21 +237,26 @@ font-size: 200%;
   margin-left: -30%; }
 
   #send {
-    margin-left: 10%;
-    width: 466px;
-    height: 78px;
-    background: #3DD29B;
-    box-shadow: 0px 3px 6px #0037BC34;
-    border-radius: 53px;
-  }
+  margin-left: 10%;
+  width: 466px;
+  height: 78px;
+  background: #3DD29B;
+  box-shadow: 0px 3px 6px #0037BC34;
+  border-radius: 53px;
 
-  #sender {
-    margin-left: 0%;
-    margin-top: 15%;
-    font: 41px Paralucent, sans-serif;
-    color: #FFFFFF;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+}
+
+#sender {
+  font: 41px Paralucent, sans-serif;
+  color: #FFFFFF;
+
+  margin: 0;
+  height: auto;
+}
+
 #hands{
   margin-right: -59%;
   margin-top: -40.9%;
@@ -344,7 +351,7 @@ font-size: 200%;
       <button class="btn deposit" on:click={handleDeposit}>Deposit</button>
       <button class="btn withdraw" on:click={handleWithdraw}>Withdraw</button>
       <button class="btn login" on:click={handleLogin}>Login</button>
-      <button class="btn join" on:click={handleJoin}>Join</button>
+        <button class="btn join" on:click={handleJoin}>Join</button>
     </div>
   </div>
 </div>
@@ -410,7 +417,7 @@ font-size: 200%;
       <p id="money3">1 AED = 32.02 KES</p>
 
       <div id="send">
-        <p id="sender">Send</p>
+        <div id="sender">Send</div>
       </div>
 
       <p id="clicking">By clicking send, I agree with terms & policy</p>
