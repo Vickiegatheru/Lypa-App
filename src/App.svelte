@@ -154,7 +154,7 @@ margin-left: 8%;
   margin-left: 0%;
   width: 40%;
   height: 250px;
-  margin-top: -8%;
+  margin-top: 0%;
 }
 
 .desktop #sendMoneyP {
@@ -175,7 +175,7 @@ margin-left: 8%;
   top: 0%;
   width: 50.8%;
     margin-bottom: 0%;
-    margin-top: 1.5%;
+    margin-top: -2%;
     height:300px ;
 
 }
