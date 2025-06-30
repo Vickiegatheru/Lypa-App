@@ -888,6 +888,7 @@ align-items: center;
 margin-top: -3%;
 
 
+
 }
 .mobile #home {
   grid-column-start: 1;
@@ -1009,287 +1010,210 @@ width: 120px;
 </style>
 
   <div class="desktop">
-    <!-- Paste your entire DESKTOP HTML content here -->
-     <div class="title">
-
-        
-        <div id="lower">
-            <p id="lypa">lypa</p>
-            <div class="button">
-            <button class="btn deposit" on:click={handleDeposit}>Deposit</button>
-            <button class="btn withdraw" on:click={handleWithdraw}>Withdraw</button>
-           <button class="btn login" on:click={handleLogin}>Login</button>
-           <button class="btn join" on:click={handleJoin}>Join</button>
-
-            </div>
-<hr class="custom" />
-
-        </div>
-    </div>
-    <div class="main"> 
-        <div class="column1" >
-            
-            <div id="sendMoney">
-               <p id="sendMoneyP"> Send Money To Your Loved Ones</p>
-
-            </div>
-            <div id="paragraph0"> 
-                <p id="paragraph0a">You don’t need to download ten apps for your financial services.
-                     Use LYPA for everything. 
-                    Send money from UAE to Kenya instantly and right from the LYPA
-                     app on your phone.</p>
-                     <div id="google">
-                     
-                     <div id="applestore">
-                        <img src="public\Images\Image 94.png">
-                     </div>
-                        <div id="playstore">
-                        <img src="./Images/Image 95.png">
-
-                            </div>
-                     </div>
-
-            </div>
-
-        </div>
-        <div class="column2">
-            <div id="paragraph1">
-                <div id="country">
-                        <img id="flag"  width="50" height="50" src="public\Images\flag.jpeg">
-                    <p id="arab">United Arab Emirates</p>
-                    <img id="scroll" src="">
-
-                </div>
-                                                <p id="receive"> SEND AMOUNT</p>
-
-                <div id="sendAmount">
-                      <p id="money">10,000.00</p>
-
-                </div>
-                                                <p id="receive"> RECEIVE AMOUNT</p>
-
-                <div id="receiveAmount">
-                    <p id="money">320,193.00</p>
-                </div>
-
-                                    <p id="money3">1 AED = 32.02 KES</p>
-
-                <div id="send">
-                   <p id="sender">Send</p>
-                </div>
-                <p id="clicking">By clicking send, I agree with terms & policy</p>
-
-            </div>
-            <img id="hands" src="src\assets\Images\Image 83.png">
-
-        </div>
-
-        
-    </div>
-    <div class="content">
-        <div id="payment">
-            <p id="paymentP">All Your Payments In One Place</p>
-
-        </div>
-        <div id="lypaHelp">
-            <p id="lypaHelpP">LYPA App helps with more than just sending money. 
-                You can easily make bill payments and
-                 even recharge mobile airtime Instantly. All in one APP, Lypa App.</p>
-
-        </div>
-        <div id="graphics">
-            <div id="bill">
-         <img id="product" height="200" width="200" src="./Images/Image 96.png" alt="Product image">
-           <p id="billPayments">
-            Bill Payments
-           </p>
-            </div>
-            <div id="airtime">
-                         <img id="product" height="200" width="200" src="./Images/Image 97.png" alt="Product image">
-                         <p id="billPayments">
-                           Airtime Topup           </p>
-
-
-            </div>
-            <div id="sendMoney2">
-                <img id="product" height="200" width="200" src="./Images/Image 98.png" alt="Product image">
-                         <p id="billPayments">
-                           Send Money           </p>
-
-            </div>
-
-        </div>
-        <div id="space">
-
-        </div>
-            
-        </div>
-    <div class="footer">
-        <div id="start">
-            <p id="startP">Start Sending Money Stress Free</p>
-
-        </div>
-        <div id="great">
-            <p id="greatP"> Great Exchange Rates * Super Fast
-                 Transfers * Instant Payments</p>
-
-        </div>
-
+  <div class="title">
+    <div id="lower">
+      <p id="lypa">lypa</p>
+      <div class="button">
+        <button class="btn deposit" on:click={handleDeposit}>Deposit</button>
+        <button class="btn withdraw" on:click={handleWithdraw}>Withdraw</button>
+        <button class="btn login" on:click={handleLogin}>Login</button>
+        <button class="btn join" on:click={handleJoin}>Join</button>
+      </div>
+      <hr class="custom" />
     </div>
   </div>
 
-  <!-- Mobile Layout -->
-   <div class="mobile">
-    <!-- Paste your entire MOBILE HTML content here -->
-     
-    
-            <div class="row1">
-        <div class="top">
+  <div class="main"> 
+    <div class="column1">
+      <div id="sendMoney">
+        <p id="sendMoneyP">Send Money To Your Loved Ones</p>
+      </div>
 
-            <div id="balance"><p id="row1P">Bal: 20,000</p> </div>
-           <div id="what"><p  id="row1P">What would you like to do today?</p></div>
-        </div>
-        <div class="bottom">
-            <div class="graphics">
-                <div id="left">
-                    <div id="arrow1">
-                    <img  width="9.23" height="9.15" src="./Images/Image 25.png">
-                    </div>
-                    
-                    <div id="withdraw">Withdraw</div>
-                
-
-                </div>
-               
-                <div id="right">
-                    <div id="arrow1">
-                    <img  width="9.23" height="9.15"  src="./Images/Image 25.png">
-                    </div>
-                    
-                    <div id="send">Send</div>
-                
-
-                </div>
-
-                </div>
-                 
-                
-            </div> 
-            <div id="centre"> 
-                    <p>Top Up</p>
-
-                </div>
-            <div class="blank">
-
-            </div>
+      <div id="paragraph0"> 
+        <p id="paragraph0a">You don’t need to download ten apps for your financial services. Use LYPA for everything. Send money from UAE to Kenya instantly and right from the LYPA app on your phone.</p>
+        <div id="google">
+          <div id="applestore">
+            <img src="/Images/Image 94.png" alt="App Store">
           </div>
-
-
-         <div class="row234">
-         <div class="row2">
-             <div class="column1">
-                  <div id="item1">
-                  <img  width="39" height="37" src="src\assets\Images\Image 98.png">
-                     </div>
-                                       <p id="send1">Send Money</p>
-
-
-          </div> 
-           <div class="column2">
-           <div id="item2">
-                  <img  width="39" height="37" src="src\assets\Images\Image 97.png">
-                     </div>
-                                       <p id="sender">Airtime Topup</p>
-
-
-         </div>
-          <div class="column3">
-          <div id="item3">
-                  <img  width="39" height="37" src="src\assets\Images\Image 96.png">
-                     </div>
-                                       <p id="sender">Bill Payments</p>
-
-
+          <div id="playstore">
+<img src="/Images/Image 95.png" alt="Play Store">
           </div>
-
-        
-        
-
-
-       </div>
-        <div class="row3">
-           <div id="cash">
-            <img id="safa" src=" src\assets\Images\safaricom.png">
-
         </div>
-        <p id="p2">ENTER AIRTIME AMOUNT</p>
+      </div>
+    </div>
 
-
-
-
-
-        <div id="safaricom">
-            
-           <div id="kes">
-                <p>KES</p>
-
-            </div>
-            <div  id="scroll"   >
-
-            </div>
-            <div id="line">
-
-            </div>
-            <div id="money">
-                <input type="number" id="numberInput" name="numberInput"
-         min="0" max="1000000" step="1" placeholder="10000">    
-            </div>
-        </div>
-        
-        <p id="p2">ENTER PHONE NUMBER</p>
-        <div id="number">
-            <div id="code">
-                +254
-            </div>
-            <div id="scrolln">
-
-            </div>
-            <div id="linen">
-
-            </div>
-            <div id="numbern">
-             <input type="tel" id="phoneInput" name="phoneInput" placeholder="07 xx xxx xxx">
-            </div>
-
-        </div>
-        <div id="topUp">
-            <p id="p3">Topup</p>
-
-        </div>
-        </div>
-       <div class="row4">
-        <div class="footer">
-                 <div id="home">
-                            <img id="homeI" width="10" height="10" src="src\assets\Images\Image 32.png">
-                             <p id="homeP">Home </p>
-                 </div>
-                   <div id="picture1">
-                 <img id="clock" width="13" height="13" src="src\assets\Images\Image 30.png">
-                 </div>
-                 <div id="picture2">
-                 <img id="letter" width="17" height="13" src="src\assets\Images\Image 31.png">
-                 <div id="about">
-                    <img id="aboutP" src="src\assets\Images\about.png">
-
-                 </div>
-
-                 </div>
+    <div class="column2">
+      <div id="paragraph1">
+        <div id="country">
+          <img id="flag" width="50" height="50" src="/Images/flag.jpeg" alt="UAE Flag">
+          <p id="arab">United Arab Emirates</p>
+          <img id="scroll" src="">
         </div>
 
-       </div>
-       </div>
- </div>
-    
+        <p id="receive">SEND AMOUNT</p>
+        <div id="sendAmount">
+          <p id="money">10,000.00</p>
+        </div>
 
+        <p id="receive">RECEIVE AMOUNT</p>
+        <div id="receiveAmount">
+          <p id="money">320,193.00</p>
+        </div>
 
+        <p id="money3">1 AED = 32.02 KES</p>
+        <div id="send">
+          <p id="sender">Send</p>
+        </div>
+        <p id="clicking">By clicking send, I agree with terms & policy</p>
+      </div>
+      <img id="hands" src="/Images/Image 83.png" alt="Hands">
+    </div>
+  </div>
 
+  <div class="content">
+    <div id="payment">
+      <p id="paymentP">All Your Payments In One Place</p>
+    </div>
+
+    <div id="lypaHelp">
+      <p id="lypaHelpP">LYPA App helps with more than just sending money. You can easily make bill payments and even recharge mobile airtime Instantly. All in one APP, Lypa App.</p>
+    </div>
+
+    <div id="graphics">
+      <div id="bill">
+        <img id="product" height="200" width="200" src="Iimages/Image 96.png" alt="Bill Payments">
+        <p id="billPayments">Bill Payments</p>
+      </div>
+
+      <div id="airtime">
+        <img id="product" height="200" width="200" src="/Images/Image 97.png" alt="Airtime Topup">
+        <p id="billPayments">Airtime Topup</p>
+      </div>
+
+      <div id="sendMoney2">
+        <img id="product" height="200" width="200" src="/Images/Image 98.png" alt="Send Money">
+        <p id="billPayments">Send Money</p>
+      </div>
+    </div>
+
+    <div id="space"></div>
+  </div>
+
+  <div class="footer">
+    <div id="start">
+      <p id="startP">Start Sending Money Stress Free</p>
+    </div>
+
+    <div id="great">
+      <p id="greatP">Great Exchange Rates * Super Fast Transfers * Instant Payments</p>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile Layout -->
+<div class="mobile">
+  <div class="row1">
+    <div class="top">
+      <div id="balance"><p id="row1P">Bal: 20,000</p></div>
+      <div id="what"><p id="row1P">What would you like to do today?</p></div>
+    </div>
+
+    <div class="bottom">
+      <div class="graphics">
+        <div id="left">
+          <div id="arrow1">
+            <img width="9.23" height="9.15" src="/Images/Image 25.png" alt="Arrow">
+          </div>
+          <div id="withdraw">Withdraw</div>
+        </div>
+
+        <div id="right">
+          <div id="arrow1">
+            <img width="9.23" height="9.15" src="/Images/Image 25.png" alt="Arrow">
+          </div>
+          <div id="send">Send</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="centre">
+      <p>Top Up</p>
+    </div>
+    <div class="blank"></div>
+  </div>
+
+  <div class="row234">
+    <div class="row2">
+      <div class="column1">
+        <div id="item1">
+          <img width="39" height="37" src="/Images/Image 98.png" alt="Send Money">
+        </div>
+        <p id="send1">Send Money</p>
+      </div>
+
+      <div class="column2">
+        <div id="item2">
+          <img width="39" height="37" src="/Images/Image 97.png" alt="Airtime Topup">
+        </div>
+        <p id="sender">Airtime Topup</p>
+      </div>
+
+      <div class="column3">
+        <div id="item3">
+          <img width="39" height="37" src="Images/Image 96.png" alt="Bill Payments">
+        </div>
+        <p id="sender">Bill Payments</p>
+      </div>
+    </div>
+
+    <div class="row3">
+      <div id="cash">
+        <img id="safa" src="/Images/safaricom.png" alt="Safaricom">
+      </div>
+      <p id="p2">ENTER AIRTIME AMOUNT</p>
+
+      <div id="safaricom">
+        <div id="kes"><p>KES</p></div>
+        <div id="scroll"></div>
+        <div id="line"></div>
+        <div id="money">
+          <input type="number" id="numberInput" name="numberInput" min="0" max="1000000" step="1" placeholder="10000">
+        </div>
+      </div>
+
+      <p id="p2">ENTER PHONE NUMBER</p>
+      <div id="number">
+        <div id="code">+254</div>
+        <div id="scrolln"></div>
+        <div id="linen"></div>
+        <div id="numbern">
+          <input type="tel" id="phoneInput" name="phoneInput" placeholder="07 xx xxx xxx">
+        </div>
+      </div>
+
+      <div id="topUp">
+        <p id="p3">Topup</p>
+      </div>
+    </div>
+
+    <div class="row4">
+      <div class="footer">
+        <div id="home">
+          <img id="homeI" width="10" height="10" src="/Images/Image 32.png" alt="Home">
+          <p id="homeP">Home</p>
+        </div>
+
+        <div id="picture1">
+          <img id="clock" width="13" height="13" src="/Images/Image 30.png" alt="Clock">
+        </div>
+
+        <div id="picture2">
+          <img id="letter" width="17" height="13" src="/Images/Image 31.png" alt="Message">
+          <div id="about">
+            <img id="aboutP" src="./Images/about.png" alt="About">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
