@@ -154,7 +154,7 @@ margin-left: 8%;
   margin-left: 0%;
   width: 40%;
   height: 250px;
-  margin-top: 1.8%;
+  margin-top: -8%;
 }
 
 .desktop #sendMoneyP {
@@ -175,7 +175,8 @@ margin-left: 8%;
   top: 0%;
   width: 43.8%;
     margin-bottom: 0%;
-    margin-top: 0%;
+    margin-top: -5%;
+    height:300px ;
 
 }
 
@@ -1081,7 +1082,7 @@ width: 120px;
 
     <div id="graphics">
       <div id="bill">
-        <img id="product" height="200" width="200" src="Iimages/Image 96.png" alt="Bill Payments">
+        <img id="product" height="200" width="200" src="/Images/Image 96.png" alt="Bill Payments">
         <p id="billPayments">Bill Payments</p>
       </div>
 
