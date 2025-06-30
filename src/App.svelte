@@ -587,7 +587,7 @@ margin-top:6% ;
     align-items: center;
     gap: 10px;
     height: 100px;
-    margin-top: -3%;
+    margin-top: 3%;
 }
 .mobile #withdraw {
     margin-top: 8%;
@@ -637,8 +637,8 @@ margin-top:6% ;
     border-radius: 50%;
     opacity: 1;
     text-align: center;
-    line-height: 55px;
-    margin-top: -25%;
+    line-height: 35px;
+    margin-top: -22%;
     margin-left: 40%;
 }
 .mobile #send {
@@ -792,7 +792,7 @@ margin-top:6% ;
     color: #001C5E;
     opacity: 1;
     margin-left: 28%;
-    margin-top: 20%;
+    margin-top: -20%;
     font-size: 110%;
 }
 .mobile #scroll {
@@ -919,8 +919,8 @@ margin-top: -3%;
 }
 .mobile #about{
     grid-column-start: 4;
-    margin-left: 50%;
-    margin-top: -13%;
+    margin-left: 35%;
+    margin-top: -7%;
 }
 .mobile #p2{
   font: normal normal medium 8px/7px Paralucent;
@@ -936,13 +936,13 @@ margin-top: 4%;
 .mobile #picture1{
   grid-column-start: 3;
   margin-top: -6.5%;
-  margin-left:35%;
+  margin-left:-20%;
 
 }
 .mobile #picture2{
   grid-column-start: 2;
-  margin-left:58%;
-  margin-top: -5.2%;
+  margin-left:14%;
+  margin-top: -6.2%;
 
 }
 .mobile #p3{
@@ -964,7 +964,8 @@ margin-left: 38%;
       padding: 8px;
       width: 120px;
       height: 20px;
-      margin-top: 8%;
+      margin-top: 3%;
+      background-color: white;
       
 
     -webkit-appearance: none;
@@ -1000,7 +1001,8 @@ width: 120px;
     }
    .mobile #code{
         margin-top: 4%;
-        margin-left: 5% ;
+        margin-left: -75% ;
+        color: black;
     }
 
 
@@ -1188,7 +1190,7 @@ width: 120px;
          <div class="row2">
              <div class="column1">
                   <div id="item1">
-                  <img  width="39" height="37" src="/Project2/Images/Image 98.png">
+                  <img  width="39" height="37" src="src\assets\Images\Image 98.png">
                      </div>
                                        <p id="send1">Send Money</p>
 
@@ -1196,7 +1198,7 @@ width: 120px;
           </div> 
            <div class="column2">
            <div id="item2">
-                  <img  width="39" height="37" src="/Project2/Images/Image 97.png">
+                  <img  width="39" height="37" src="src\assets\Images\Image 97.png">
                      </div>
                                        <p id="sender">Airtime Topup</p>
 
@@ -1204,7 +1206,7 @@ width: 120px;
          </div>
           <div class="column3">
           <div id="item3">
-                  <img  width="39" height="37" src="/Project2/Images/Image 96.png">
+                  <img  width="39" height="37" src="src\assets\Images\Image 96.png">
                      </div>
                                        <p id="sender">Bill Payments</p>
 
@@ -1218,7 +1220,7 @@ width: 120px;
        </div>
         <div class="row3">
            <div id="cash">
-            <img id="safa" src="./Images/safaricom.png">
+            <img id="safa" src=" src\assets\Images\safaricom.png">
 
         </div>
         <p id="p2">ENTER AIRTIME AMOUNT</p>
@@ -1269,16 +1271,16 @@ width: 120px;
        <div class="row4">
         <div class="footer">
                  <div id="home">
-                            <img id="homeI" width="10" height="10" src="./Images/Image 32.png">
+                            <img id="homeI" width="10" height="10" src="src\assets\Images\Image 32.png">
                              <p id="homeP">Home </p>
                  </div>
                    <div id="picture1">
-                 <img id="clock" width="13" height="13" src="./Images/Image 30.png">
+                 <img id="clock" width="13" height="13" src="src\assets\Images\Image 30.png">
                  </div>
                  <div id="picture2">
-                 <img id="letter" width="17" height="13" src="./Images/Image 31.png">
+                 <img id="letter" width="17" height="13" src="src\assets\Images\Image 31.png">
                  <div id="about">
-                    <img id="aboutP" src="./Images/about.png">
+                    <img id="aboutP" src="src\assets\Images\about.png">
 
                  </div>
 
