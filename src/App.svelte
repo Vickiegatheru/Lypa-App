@@ -173,9 +173,9 @@ margin-left: 8%;
   opacity: 1;
   grid-template-rows: 1fr 2fr;
   top: 0%;
-  width: 43.8%;
+  width: 50.8%;
     margin-bottom: 0%;
-    margin-top: -5%;
+    margin-top: 1.5%;
     height:300px ;
 
 }
