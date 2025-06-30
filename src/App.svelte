@@ -888,7 +888,6 @@ align-items: center;
 margin-top: -3%;
 
 
-
 }
 .mobile #home {
   grid-column-start: 1;
